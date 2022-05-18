@@ -1,6 +1,9 @@
+body {
+    background-color: rgb(206, 195, 176);
+}
+
 #whole_page {
     background-image: url("https://ih0.redbubble.net/image.557166896.2755/flat,1000x1000,075,f.u15.jpg");
-    background-color: rgb(248, 248, 226);
     margin: 20px;
     border-radius: 50px;
 }
@@ -11,11 +14,11 @@ img {
 
 h1 {
     color: rgb(50, 50, 202);
-    border: 4px solid darkgrey;
+    border: 4px solid rgb(161, 161, 245);
     background-color: rgb(206, 195, 176);
     text-align: center;
     text-shadow: 3px 3px #979696;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 div {
@@ -34,4 +37,10 @@ ol {
 li {
     margin: 10px;
     font-style: italic;
+}
+
+.the_divs {
+    border: 6px solid rgb(161, 161, 245);
+    border-radius: 30px;
+    margin-bottom: 20px;
 }
